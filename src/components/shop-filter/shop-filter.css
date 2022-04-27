@@ -1,0 +1,26 @@
+.filter-header {
+    font-weight: normal;
+    font-size: 68px;
+}
+
+.shop-filter {
+    padding: 180px 210px;
+}
+
+.list-filter {
+    padding-top: 166px;
+}
+
+@media screen and (max-width: 880px){
+    .filter-header {
+        font-size: 64px;
+    }
+
+    .shop-filter {
+        padding: 80px 51px;
+    }
+
+    .list-filter {
+        flex-wrap: wrap;
+    }
+}

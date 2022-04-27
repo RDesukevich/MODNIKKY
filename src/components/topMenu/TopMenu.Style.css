@@ -1,0 +1,113 @@
+.top-menu {
+    background-image: url("../../images/mask.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 40px 120px 200px 120px;
+}
+
+.burger-icon {
+    display: none;
+}
+
+.bag-icon {
+    display: none;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-right: 80px;
+}
+
+.top-menu-content {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 32px;
+    padding-top: 1012px;
+}
+
+.top-menu-header {
+    font-size: 76px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.top-menu-text {
+    padding-bottom: 60px;
+}
+
+.top-menu-btn {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    padding: 40px 75px;
+    line-height: 32px;
+}
+
+.search-link {
+
+}
+
+@media screen and (max-width: 880px){
+    .top-menu {
+        background-image: url("../../images/mask-mobile.svg");
+        padding: 34px 20px 0 20px;
+    }
+
+    .img-logo {
+        width: 284px;
+        height: 30px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        padding-right: 114px;
+    }
+
+    .search-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .bag-icon {
+        display: block;
+        padding: 0 40px;
+    }
+
+    .like-icon {
+        width: 36px;
+        height: 32px;
+    }
+
+    .top-menu-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #000000;
+        font-size: 24px;
+        padding-top: 895px;
+    }
+
+    .top-menu-header {
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    .top-menu-text {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .top-menu-btn {
+        color: #000000;
+        border: 2px solid #000F08;
+        background: transparent;
+        padding: 30px 75px;
+        line-height: 32px;
+    }
+}
