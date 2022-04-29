@@ -1,0 +1,19 @@
+.footer-item {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-item-header {
+    font-size: 32px;
+    padding-bottom: 60px;
+    line-height: 48px;
+}
+
+.footer-image {
+    margin-right: 20px;
+}
+
+li {
+    margin-bottom: 40px;
+}

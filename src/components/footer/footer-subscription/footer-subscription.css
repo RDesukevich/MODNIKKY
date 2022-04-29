@@ -1,0 +1,40 @@
+.footer-email-input {
+    border: 0;
+}
+
+.footer-subscription-form {
+    border-bottom: solid #D8D8D8;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.footer-button {
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+.footer-subscription {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 120px;
+}
+
+.footer-subscription-title {
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom: 24px;
+}
+
+.footer-promo-text {
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 54px;
+}
+
+@media screen and (max-width: 880px){
+    .footer-subscription-form {
+        font-size: 24px;
+    }
+}
