@@ -14,8 +14,10 @@ import Insta1 from '../src/images/insta1.svg'
 import Insta2 from '../src/images/insta2.jpg'
 import Insta3 from '../src/images/insta3.jpg'
 import Insta4 from '../src/images/insta4.jpg'
+
 import './App.css';
 import SaleListItem from "./components/sale-list-item/sale-list-item";
+import ShopInstagram from "./components/shop-instagram/shop-instagram";
 
 class App extends Component {
   constructor(props) {
@@ -34,16 +36,17 @@ class App extends Component {
         {price: '$8.00', imgUrl: Insta2, like: Like, discount: '-39%', discountPrice: '$4.90', id: '2'},
         {price: '$14.00', imgUrl: Insta3, like: Like, discount: '-58%', discountPrice: '$5.90', id: '3'},
         {price: '$9.00', imgUrl: Insta4, like: Like, discount: '-34%', discountPrice: '$5.90', id: '4'}
-      ]
+      ],
     }
   }
   render() {
-    const {dataCategory, dataSale} = this.state;
+    const {dataCategory, dataSale, dataInstagram} = this.state;
     return (
         <>
           <TopMenu/>
           <ShopFilter dataCategory={dataCategory}/>
           <SaleListItem dataSale={dataSale}/>
+          <ShopInstagram/>
         </>
     );
   }

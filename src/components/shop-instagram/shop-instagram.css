@@ -1,0 +1,55 @@
+.shop-instagram {
+    padding: 162px 207px 180px 207px;
+}
+
+.shop-cta {
+    padding-bottom: 60px;
+}
+
+.shop-title {
+    margin-right: 120px ;
+}
+
+.shop-link {
+    margin-right: 26px;
+}
+
+.shop-instagram-footer {
+    padding-top: 60px;
+}
+
+.shop-instagram-text {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 880px){
+    .shop-instagram {
+        padding: 0 8px 80px 8px;
+    }
+
+    .shop-instagram-next-icon {
+        width: 9px;
+        height: 16px;
+    }
+
+    .shop-title {
+        margin-right: 80px ;
+    }
+
+    .shop-link {
+        margin-right: 16px;
+    }
+
+    .shop-instagram-text {
+        font-size: 24px;
+    }
+
+    .shop-cta {
+        padding-bottom: 40px;
+    }
+
+    .shop-instagram-footer {
+        padding-top: 70px;
+    }
+}
