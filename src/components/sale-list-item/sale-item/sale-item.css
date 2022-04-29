@@ -1,0 +1,70 @@
+.sale-price {
+    font-size: 36px;
+    font-weight: 400;
+    color: #000F08;
+    text-decoration: line-through;
+    padding-right: 24px;
+}
+
+.sale-discountPrice {
+    font-weight: 700;
+    font-size: 40px;
+    color: #D7302D;
+}
+
+.sale-discount {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px;
+    background-color: #D7302D;
+    color: #FFFFFF;
+    position: relative;
+    bottom: 50px;
+}
+
+.sale-text {
+    padding-top: 24px;
+}
+
+.sale-item {
+    margin-right: 24px;
+}
+
+.sale-like {
+    cursor: pointer;
+    position: relative;
+    padding: 24px;
+    top: 103px;
+    left: 82%;
+}
+
+@media screen and (max-width: 880px){
+    .sale-img {
+        width: 300px;
+    }
+
+    .sale-like {
+        padding: 0;
+        width: 40px;
+        top: 46px;
+        left: 84%;
+    }
+
+    .sale-discount {
+        font-size: 16px;
+        padding: 7px;
+        bottom: 30px;
+    }
+
+    .sale-price {
+        font-size: 20px;
+    }
+
+    .sale-text {
+        padding-top: 0;
+    }
+
+    .sale-discountPrice {
+        font-size: 24px;
+    }
+}

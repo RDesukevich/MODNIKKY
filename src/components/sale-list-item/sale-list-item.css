@@ -1,0 +1,24 @@
+.sale-header {
+    font-weight: 400;
+    font-size: 68px;
+    padding-bottom: 70px;
+}
+
+.sale {
+    padding: 180px 207px 100px 207px;
+}
+
+@media screen and (max-width: 880px){
+    .sale {
+        padding: 0 51px 80px 51px;
+    }
+
+    .sale-header {
+        font-size: 64px;
+        padding-bottom: 80px;
+    }
+
+    .sale-list-item {
+        flex-wrap: wrap;
+    }
+}
